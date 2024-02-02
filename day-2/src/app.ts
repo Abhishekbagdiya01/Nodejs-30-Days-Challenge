@@ -27,14 +27,14 @@ async function writeToFile (filePath: string, content: string) {
         })
     } catch (error) {
         if (error === 'ENOENT') {
-            console.log('File not found.')
+            console.error('ENOENT: no such file or directory...')
         } else {
             console.log("Something went wrong")
         }
     }
 }
-writeToFile("test-files/output1.txt", "This is day 2 of 30 days nodejs challenge")
-readFileContent("test-files/output1.txt")
-writeToFile("test-files/output22.txt", "This is day 2 of 30 days nodejs challenge")
+writeToFile("test-files/output1.txt", "This is day 2 of 30 days nodejs challenge").then(() => readFileContent("test-files/output1.txt").then(() => writeToFile("test-files/output22.txt", "This is day 2 of 30 days nodejs challenge")))
+// readFileContent("test-files/output1.txt")
+// writeToFile("test-files/output22.txt", "This is day 2 of 30 days nodejs challenge")
 
 
