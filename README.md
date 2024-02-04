@@ -8,6 +8,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 1 : File Reader
 - Day 2 : File Writer
 - Day 3 : Execute Command
+- Day 4 : Resolve Path Problem 
 
 ## Project Goals
 
