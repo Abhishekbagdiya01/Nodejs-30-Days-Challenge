@@ -12,7 +12,9 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 5 : File Extension Checker
 - Day 6 : Express Route Handling
 - Day 7 : Express Middleware
-- Day 8 : MCQ 
+- Day 8 : Express Error Handling
+- Day 9 : MCQ
+- Day 10 : Express Static Files
 
 ## Project Goals
 
