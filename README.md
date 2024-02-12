@@ -16,6 +16,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 9 : MCQ
 - Day 10 : Express Static Files
 - Day 11 : Express Authentication Middleware
+- Day 12 : Express Rate Limiting
 
 ## Project Goals
 
