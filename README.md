@@ -19,6 +19,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 12 : Express Rate Limiting
 - Day 13 : Express WebSocket Integration
 - Day 14 : Express Caching Middleware
+- Day 15 : Express Logging Middleware
 ## Project Goals
 
 - Master core Node.js concepts and principles.
