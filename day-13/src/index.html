@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    CLient 1 : <input type="button" value="Send message" onclick="sendMessage()">
+</body>
+<script>
+    // Create WebSocket connection.
+    const socket = new WebSocket("ws://localhost:8000");
+
+    // Connection opened
+    socket.addEventListener("open", (event) => {
+        console.log("connected to ws server");
+    });
+
+    // Listen for messages
+    socket.addEventListener("message", (event) => {
+        console.log("Message from server ", event.data);
+    });
+
+    function sendMessage() {
+        socket.send("Hello Server!");
+    }
+</script>
+
+</html>

@@ -1,5 +1,4 @@
 import express from "express";
-import rateLimitMiddleware from "./middelware/rate_limit_middelware";
 import rateLimit from "express-rate-limit";
 
 const app: express.Application = express();
