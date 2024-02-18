@@ -15,9 +15,13 @@ app.get("/", (request: express.Request, response: express.Response) => {
 const user = mongoose.model("User", userModel)
 
 async function getAllUsers (request: express.Request, response: express.Response) {
-    const result = await user.find({})
-    console.log(result);
-    response.status(200).json(`Result : ${result}`)
+    try {
+        const result = await user.find({})
+        console.log(result);
+        response.status(200).json(`Result : ${result}`)
+    } catch (error) {
+        response.status(401).json("Error : " + error)
+    }
 }
 app.get("/users", (request: express.Request, response: express.Response) => {
     getAllUsers(request, response)
