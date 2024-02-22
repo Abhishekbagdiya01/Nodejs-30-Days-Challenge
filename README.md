@@ -20,6 +20,12 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 13 : Express WebSocket Integration
 - Day 14 : Express Caching Middleware
 - Day 15 : Express Logging Middleware
+- Day 16 : MongoDB Connection Setup
+- Day 17 : Mongoose Schema and Model
+- Day 18 : Express Route with MongoDB Query
+- Day 19 : Mongoose Validation
+- Day 20 : Express Route with MongoDB Aggregation
+- Day 22 : MongoDB CRUD Operations
 ## Project Goals
 
 - Master core Node.js concepts and principles.
