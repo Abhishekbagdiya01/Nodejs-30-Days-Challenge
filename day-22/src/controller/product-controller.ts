@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import { productSchema } from "../model/product_model";
 
+
 export class ProductController {
 
     // create products
@@ -10,15 +11,13 @@ export class ProductController {
         try {
             let productDetails = request.body
             const products = await mongoose.model("products", productSchema)
-
             let result = await products.create({
                 "name": productDetails.name,
                 "price": productDetails.price,
-                "quantity": productDetails.quantity
+                "quantity": productDetails.quantity,
+
             })
-
-            console.log(`result : ${result}`);
-
+            console.log(`result : ${result._id}`);
             response.status(200).json({ "message": "Successfully created a new Product!", "data": result })
 
         } catch (error) {
@@ -29,6 +28,7 @@ export class ProductController {
     // retrieve products
     static async getAllProducts (request: express.Request, response: express.Response) {
         try {
+
             const products = await mongoose.model("products", productSchema)
             const data = await products.find({})
             response.status(200).send(data)
