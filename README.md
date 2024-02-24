@@ -27,6 +27,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 20 : Express Route with MongoDB Aggregation
 - Day 22 : MongoDB CRUD Operations
 - Day 23 : Mongoose Population
+- Day 24 : Express Route for Product CRUD Operations
 ## Project Goals
 
 - Master core Node.js concepts and principles.
