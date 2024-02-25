@@ -31,7 +31,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 25 : Mongoose Indexing
 ## Installation & Running the code
 To run this project, you will need to have Node.js installed on your machine. Once you've got that set up, follow these steps: 
-type ```npm i ``` to install all the dependency
+type ```npm i ``` to install all the dependency </br>
 type ```npm start``` to run code
 
 ## Project Goals
