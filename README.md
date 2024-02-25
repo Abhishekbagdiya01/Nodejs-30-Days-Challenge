@@ -28,9 +28,15 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 22 : MongoDB CRUD Operations
 - Day 23 : Mongoose Population
 - Day 24 : Express Route for Product CRUD Operations
+- Day 25 : Mongoose Indexing
+## Installation & Running the code
+To run this project, you will need to have Node.js installed on your machine. Once you've got that set up, follow these steps: 
+type ```npm i ``` to install all the dependency
+type ```npm start``` to run code
+
 ## Project Goals
 
 - Master core Node.js concepts and principles.
 - Cultivate practical TypeScript skills through hands-on exercises.
 - Explore advanced TypeScript features for robust and maintainable code.
-- Document your learning adventure for future reference and reflection.
+- Document my learning adventure for future reference and reflection.
