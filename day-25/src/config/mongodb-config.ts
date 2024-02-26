@@ -23,6 +23,4 @@ export async function createProductNameIndex () {
     }).then(() => {
         console.log("index created");
     })
-    console.log(`result : ${result}`);
-
 }
