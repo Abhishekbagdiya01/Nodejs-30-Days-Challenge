@@ -32,6 +32,7 @@ Embark on a voyage to conquer Node.js and TypeScript! This repository chronicles
 - Day 26 : Aggregation Pipeline for Product Stats
 - Day 27 : Authentication Middleware
 - Day 28 : WebSocket Integration
+- Day 29 : Error Handling Middleware
 ## Installation & Running the code
 To run this project, you will need to have Node.js installed on your machine. Once you've got that set up, follow these steps: 
 type ```npm i ``` to install all the dependency </br>
